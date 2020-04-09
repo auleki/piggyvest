@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Dosis&family=Fira+Sans&family=Girassol&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("../images/piggy_bg.jpg") no-repeat fixed;
+  background-size: cover;
+  font-family: "Baloo Paaji 2";
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.login-container {
+  position: relative;
+  top: 50px;
+  height: 60%;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.login-container .login-header {
+  text-align: center;
+  padding: 0 0 50px 0;
+}
+
+.login-container .form-box {
+  margin: 0 auto;
+  background-color: #ffffff;
+  height: 100%;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
+
+.login-container .form-box .form-header {
+  text-align: center;
+  padding: 50px 0 20px 0;
+  font-family: Girassol;
+}
+
+.login-container .form-box .form-header h1 {
+  color: #083e9e;
+  font-size: 23px;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  font-weight: 600;
+}
+
+.login-container .form-box .form-header span {
+  font-family: Dosis;
+  margin-top: 25px;
+  letter-spacing: 1px;
+}
+
+.login-container .form-box .form {
+  margin: 0 auto;
+  font-family: "Baloo Paaji 2";
+}
+
+.login-container .form-box .form .input-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 18px 25px;
+}
+
+.login-container .form-box .form .input-box label {
+  color: #4a5568;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.login-container .form-box .form .input-box input {
+  border-radius: 3px;
+}
+
+.login-container .form-box .form .input-box input, .login-container .form-box .form .input-box select, .login-container .form-box .form .input-box option {
+  padding: 16px 8px 16px 16px;
+  border: none;
+  background-color: #edf2f7;
+}
+
+.login-container .form-box .form .input-box .login-btn {
+  padding: 15px 15px;
+  background-color: #083e9e;
+  font-family: "Baloo Paaji 2";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+  outline: none;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.login-container .form-box .form .input-box .login-btn:hover {
+  background-color: #043383;
+  cursor: pointer;
+}
+
+.login-container .form-misc {
+  padding: 25px 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login-container .form-misc .misc-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 0;
+}
+
+::-webkit-input-placeholder {
+  font-family: "Baloo Paaji 2";
+  color: #9b9b9b;
+}
+
+:-ms-input-placeholder {
+  font-family: "Baloo Paaji 2";
+  color: #9b9b9b;
+}
+
+::-ms-input-placeholder {
+  font-family: "Baloo Paaji 2";
+  color: #9b9b9b;
+}
+
+::placeholder {
+  font-family: "Baloo Paaji 2";
+  color: #9b9b9b;
+}
